@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import GetMedia from './components/Common/GetMedia';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                     Learn React test
                 </a>
             </header>
+            <GetMedia></GetMedia>
         </div>
     );
 }
